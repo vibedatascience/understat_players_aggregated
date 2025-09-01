@@ -1,7 +1,5 @@
 # Understat Football Player Statistics Dataset
 
-🚀 **[View Live Dashboard](https://vibedatascience.github.io/understat_players_aggregated/)** - Interactive EPL data visualizations!
-
 ## Overview
 Comprehensive football player statistics from Europe's top 6 leagues, sourced from Understat.com. Contains detailed performance metrics including goals, expected goals (xG), assists, and advanced analytics.
 
