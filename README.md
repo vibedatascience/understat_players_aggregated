@@ -15,6 +15,23 @@ Comprehensive football player statistics from Europe's top 6 leagues, sourced fr
 
 ## Quick Start
 
+### Load Data Directly from GitHub
+
+```python
+import pandas as pd
+
+# For historical analysis (complete seasons only)
+historical = pd.read_csv('https://raw.githubusercontent.com/vibedatascience/understat_players_aggregated/main/understat_players_aggregated_2014_2024.csv')
+
+# For current season tracking
+current = pd.read_csv('https://raw.githubusercontent.com/vibedatascience/understat_players_aggregated/main/understat_players_aggregated_2025_latest.csv')
+
+# For complete dataset
+full = pd.read_csv('https://raw.githubusercontent.com/vibedatascience/understat_players_aggregated/main/understat_players_aggregated_2014_td.csv')
+```
+
+### Load Local Files
+
 ```python
 import pandas as pd
 
